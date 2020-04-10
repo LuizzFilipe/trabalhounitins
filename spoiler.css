@@ -1,0 +1,124 @@
+body,html {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+
+
+
+
+.links{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+}
+
+.links label{
+    padding: 10px 0;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: all .4s;
+    text-align: center;
+    font-family: 'Duru Sans';
+    font-size: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);;
+    
+
+}
+
+.links label:hover{
+    background-color: rgba(255,255,255, .2);
+
+}
+
+.scroll input{
+    display: none;
+}
+
+
+.bloco{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.scroll{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sections{
+    transition: all 1s;
+}
+
+#rd_games:checked ~ .sections{
+    margin-top: -100vh;
+}
+
+#rd_filmes:checked ~ .sections{
+    margin-top: -200vh;
+}
+
+#rd_series:checked ~ .sections{
+    margin-top: -300vh;
+}
+
+#rd_animes:checked ~ .sections{
+    margin-top: -400vh;
+}
+
+#home{
+
+    background-image: url(logo4.jpg);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+   
+}
+
+#games{
+   background-image: url(claire2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+#filmes{
+    background-image: url(ramona3.png);
+     background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   
+}
+
+#series{
+    background-image: url(geralt2.jpg);
+     background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+#animes{
+    background-image: url(zerotwo.jpg);
+     background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+
+
+    

@@ -1,0 +1,159 @@
+body {
+	font-family: "Duru Sans","arial";
+	background-image: url(twfundo.jpg);
+	background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+::selection {
+    background: rgb(77, 3, 112);
+    color: rgb(255, 255, 255);
+}
+ 
+
+.citacao-bio {
+	background-color:rgb(14, 13, 13);
+	width: 250px;
+	box-sizing: border-box;
+	margin: 10px 20px;
+	padding: 20px;
+}
+
+.ign {
+	float: right;
+}
+
+
+
+cite {
+	font-style: italic;
+	float: right;
+}
+
+.citação{
+	color: black;
+}
+
+h1, h2 {
+	font-family: "Aclonica", "Arial", "sans-serif";
+}
+
+.titulo-principal {
+	text-align: center;
+	background-color: #ffffff;
+	color: rgb(255, 255, 255);
+	padding: 25px;
+	
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+	color: white;
+}
+
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: rgb(0, 0, 0);
+}
+
+.rodape-pagina {
+	background-color: rgb(255, 255, 255, .2);
+	color: rgb(0, 0, 0);
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+main a {
+	color: #851944;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.navegacao-site{
+    padding: 20px;
+}
+
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.subtitulo-texto {
+	font-size: 30px;
+	clear: both;
+	background: -webkit-linear-gradient(top,#bc74ff , #200048);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+nav a {
+	text-transform: lowercase;
+}
+
+
+main {
+	float: left;
+	width: 85%;
+	padding-bottom: 80px;
+}
+
+
+
+.navegacao-site {
+	width: 15%;
+	position: relative;
+	top: 310px;
+}
+
+ .rodape-pagina {
+	 padding: 2px;
+	 font-size: 50%;
+ }
+
+
+ #spoiler{
+	 position: relative;
+	 left: 200px;
+	 padding: 10px;
+ }
+
+#backtohome{
+    position: relative;
+    left: 140px;
+    padding: 50px;
+}
+
+
+
+#spoiler2{
+    opacity: 5%;
+}
